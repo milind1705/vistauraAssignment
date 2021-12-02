@@ -1,0 +1,22 @@
+{
+  "http-request": {
+    "method": "POST",
+    "path": "/user/login",
+    "body": {
+      "email": "jamie@google.com",
+      "password": "secure"
+    }
+  },
+
+  "http-response": {
+    "status": 200,
+    "body": {
+      "token": "eyJhbGciOiJIU.eyJfaWQiOiI2MWE4Y2Y5ODgzMjcwY2FlNDAyOWU5OTAiLCJpYXQiOjE2Mzg0NTM3NjcsImV4cCI6MTYzODQ1NzM2N30.VRtd2Y6RtKNVOwAYx5lhoo99iHU",
+      "data": {
+        "name": "jamie",
+        "email": "jamie@google.com"
+      },
+      "success": true
+    }
+  }
+}

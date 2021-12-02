@@ -1,5 +1,8 @@
 {
   "files.associations": {
-    "*.spec": "gherkin"
+    "*.spec": "feature"
+  },
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
   }
 }

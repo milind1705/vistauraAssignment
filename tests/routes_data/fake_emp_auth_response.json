@@ -1,0 +1,14 @@
+{
+  "http-request": {
+    "method": "GET",
+    "path": "/auth/emp",
+    "headers": {
+      "Authorization": "Bearer emp-auth-token"
+    }
+  },
+
+  "http-response": {
+    "status": 200,
+    "body": "This is employee routes"
+  }
+}

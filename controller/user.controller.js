@@ -11,8 +11,7 @@ module.exports.signup = (req, res) => {
       return res.status(200).json({
         data: user,
         success: true,
-        error:null
-      
+        error: null,
       });
     })
     .catch((err) => {
@@ -43,7 +42,7 @@ module.exports.login = (req, res) => {
       { expiresIn: 3600 },
       (err, token) => {
         return res.status(200).json({
-          token,
+          token: `Bearer ${token}`,
           data: { name: user.name, email: user.email },
           success: true,
         });

@@ -4,12 +4,12 @@ Feature: User API
         Given value login from login.spec
     Scenario: Get emp route
 
-    When GET /auth/emp
+        When GET /auth/emp
 
-    And request-header Authenticate (string)
-    Then status 200
-    And response-body (string)
-
-Examples:
-            | Authenticate | 
-            |($login.token)|
+        And request-header Authorization (string)
+        Then status 200
+        And response-body (string)
+        And value login from login.spec
+        Examples:
+            | Authorization  |
+            | ($login.token) |

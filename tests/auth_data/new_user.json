@@ -1,0 +1,27 @@
+{
+  "http-request": {
+    "method": "POST",
+    "path": "/user/signup",
+    "body": {
+      "name": "jamie",
+      "email": "jamie@google.com",
+      "password": "secure"
+    }
+  },
+
+  "http-response": {
+    "status": 200,
+    "body": {
+      "data": {
+        "name": "secure",
+        "role": "employee",
+        "email": "jamie",
+        "password": "secure",
+        "_id": "61a8cca22437e1e0607a2095",
+        "__v": 0
+      },
+      "success": true,
+      "error": null
+    }
+  }
+}

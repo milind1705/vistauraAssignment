@@ -1,15 +1,24 @@
 {
+  "sources": [
+    {
+      "provider": "git",
+      "repository": "https://github.com/milind1705/vistauraAssignment",
+      "test": ["tests/auth.spec"],
+      "stub": ["tests/login.spec"]
+    }
+  ],
   "environments": {
-    "staging": {
+    "development": {
       "baseurls": {
         "auth.spec": "http://localhost:3000",
-        "login.spec": "http://localhost:3000"
+        "login.spec": "http://localhost:3000",
+        "routes.spec": "http://localhost:3000"
       },
       "variables": {
-        "email": "milind@example.com",
-        "password": "1234"
+        "email": "jamie@google.com",
+        "password": "secure",
+        "name": "jamie"
       }
     }
   }
-
 }

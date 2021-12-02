@@ -6,9 +6,10 @@
   "scripts": {
     "stub": "npx specmatic stub tests/*.spec --host=localhost --port=8000",
     "test": "npx specmatic test tests/*.spec --host=localhost --port=8000",
-    "dev:test": "npx specmatic test tests/*.spec --host=localhost --port=3000",
+    "dev:stub": "npx specmatic stub tests/*.spec --host=localhost --port=3000",
+    "dev:test": "npx specmatic test --env=development tests/*.spec --host=localhost --port=3000",
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev:server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
