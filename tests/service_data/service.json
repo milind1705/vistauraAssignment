@@ -1,0 +1,14 @@
+{
+    "environments": {
+      "staging": {
+        "baseurls": {
+          "auth.spec": "http://localhost:3000"
+        },
+        "variables": {
+          "email": "milind@example.com",
+          "password": "1234"
+        }
+      }
+    }
+  
+  }

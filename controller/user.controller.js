@@ -11,7 +11,8 @@ module.exports.signup = (req, res) => {
       return res.status(200).json({
         data: user,
         success: true,
-        error: null,
+        error:null
+      
       });
     })
     .catch((err) => {
