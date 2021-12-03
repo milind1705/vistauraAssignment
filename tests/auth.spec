@@ -25,8 +25,8 @@ Feature: Contract for signup user
         Then status 200
         And response-body (ResponseBody)
         Examples:
-            | email    | name    | password    |role|
-            | ($emp_user.email) | ($emp_user.name) | ($emp_user.password) |employee|
+            | email        | name        | password        | role     |
+            | ($emp_email) | ($emp_name) | ($emp_password) | employee |
 
     Scenario: Should be able to save admin user
 
@@ -55,7 +55,7 @@ Feature: Contract for signup user
         Then status 200
         And response-body (ResponseBody)
         Examples:
-            | email    | name    | password    |role|
-            | ($admin_user.email) | ($admin_user.name) | ($admin_user.password) |admin|
+            | email          | name          | password          | role  |
+            | ($admin_email) | ($admin_name) | ($admin_password) | admin |
 
 

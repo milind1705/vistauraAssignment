@@ -15,16 +15,12 @@
         "routes.spec": "http://localhost:3000"
       },
       "variables": {
-        "emp_user":{
-          "email": "jamie@google.com",
-        "password": "secure",
-        "name": "jamie"
-        },
-        "admin_user":{
-          "email": "john@google.com",
-        "password": "password",
-        "name": "johny"
-        }
+        "emp_email": "jamie@google.com",
+        "emp_password": "secure",
+        "emp_name": "jamie",
+        "admin_email": "john@google.com",
+        "admin_password": "password",
+        "admin_name": "john"
       }
     }
   }
