@@ -10,6 +10,7 @@
     "dev:test": "npx specmatic test --env=development tests/*.spec --host=localhost --port=3000",
     "dev:test:routes": "npx specmatic test --env=development tests/routes.spec --host=localhost --port=3000",
     "dev:test:auth": "npx specmatic test --env=development tests/auth.spec --host=localhost --port=3000",
+    "dev:test:login": "npx specmatic test --env=development tests/login.spec --host=localhost --port=3000",
     "start": "node server.js",
     "dev:server": "nodemon server.js"
   },

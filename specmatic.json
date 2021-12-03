@@ -20,7 +20,8 @@
         "emp_name": "jamie",
         "admin_email": "john@google.com",
         "admin_password": "password",
-        "admin_name": "john"
+        "admin_name": "john",
+        "admin_role":"admin"
       }
     }
   }

@@ -5,6 +5,7 @@ Feature: Contract for signup user
             | name     | (string) |
             | email    | (string) |
             | password | (string) |
+            
 
         And Type ResponseUser
             | name     | (string) |
@@ -34,7 +35,7 @@ Feature: Contract for signup user
             | name     | (string) |
             | email    | (string) |
             | password | (string) |
-
+            |role      | (string)  |
 
         And Type ResponseUser
             | name     | (string) |

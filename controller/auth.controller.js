@@ -6,7 +6,7 @@ module.exports.adminRoutes = async (req, res) => {
   if (user.role == "admin") {
     return res.status(200).json("This is admin routes");
   } else {
-    return res.status(400).json("YOnly admin can access this routes");
+    return res.status(400).json("Only admin have access to this routes");
   }
 };
 
